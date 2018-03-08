@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96A29E821EF962AC0094F91B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A29E811EF962AC0094F91B /* AppDelegate.swift */; };
+		96A29E841EF962AC0094F91B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A29E831EF962AC0094F91B /* ViewController.swift */; };
+		96A29E861EF962AC0094F91B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A29E851EF962AC0094F91B /* Assets.xcassets */; };
+		96A29E891EF962AC0094F91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A29E871EF962AC0094F91B /* Main.storyboard */; };
+		96A29E941EF962AC0094F91B /* SwiftLeafLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A29E931EF962AC0094F91B /* SwiftLeafLightTests.swift */; };
+		96A29E9F1EF962AC0094F91B /* SwiftLeafLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A29E9E1EF962AC0094F91B /* SwiftLeafLightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96A29E901EF962AC0094F91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A29E761EF962AC0094F91B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96A29E7D1EF962AC0094F91B;
+			remoteInfo = SwiftLeafLight;
+		};
+		96A29E9B1EF962AC0094F91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A29E761EF962AC0094F91B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96A29E7D1EF962AC0094F91B;
+			remoteInfo = SwiftLeafLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96A29E7E1EF962AC0094F91B /* SwiftLeafLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLeafLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A29E811EF962AC0094F91B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96A29E831EF962AC0094F91B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96A29E851EF962AC0094F91B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96A29E881EF962AC0094F91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96A29E8A1EF962AC0094F91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A29E8F1EF962AC0094F91B /* SwiftLeafLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLeafLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A29E931EF962AC0094F91B /* SwiftLeafLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLeafLightTests.swift; sourceTree = "<group>"; };
+		96A29E951EF962AC0094F91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A29E9A1EF962AC0094F91B /* SwiftLeafLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLeafLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A29E9E1EF962AC0094F91B /* SwiftLeafLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLeafLightUITests.swift; sourceTree = "<group>"; };
+		96A29EA01EF962AC0094F91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96A29E7B1EF962AC0094F91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A29E8C1EF962AC0094F91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A29E971EF962AC0094F91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A29E751EF962AC0094F91B = {
+			isa = PBXGroup;
+			children = (
+				96A29E801EF962AC0094F91B /* SwiftLeafLight */,
+				96A29E921EF962AC0094F91B /* SwiftLeafLightTests */,
+				96A29E9D1EF962AC0094F91B /* SwiftLeafLightUITests */,
+				96A29E7F1EF962AC0094F91B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96A29E7F1EF962AC0094F91B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A29E7E1EF962AC0094F91B /* SwiftLeafLight.app */,
+				96A29E8F1EF962AC0094F91B /* SwiftLeafLightTests.xctest */,
+				96A29E9A1EF962AC0094F91B /* SwiftLeafLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96A29E801EF962AC0094F91B /* SwiftLeafLight */ = {
+			isa = PBXGroup;
+			children = (
+				96A29E811EF962AC0094F91B /* AppDelegate.swift */,
+				96A29E831EF962AC0094F91B /* ViewController.swift */,
+				96A29E851EF962AC0094F91B /* Assets.xcassets */,
+				96A29E871EF962AC0094F91B /* Main.storyboard */,
+				96A29E8A1EF962AC0094F91B /* Info.plist */,
+			);
+			path = SwiftLeafLight;
+			sourceTree = "<group>";
+		};
+		96A29E921EF962AC0094F91B /* SwiftLeafLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				96A29E931EF962AC0094F91B /* SwiftLeafLightTests.swift */,
+				96A29E951EF962AC0094F91B /* Info.plist */,
+			);
+			path = SwiftLeafLightTests;
+			sourceTree = "<group>";
+		};
+		96A29E9D1EF962AC0094F91B /* SwiftLeafLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96A29E9E1EF962AC0094F91B /* SwiftLeafLightUITests.swift */,
+				96A29EA01EF962AC0094F91B /* Info.plist */,
+			);
+			path = SwiftLeafLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96A29E7D1EF962AC0094F91B /* SwiftLeafLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A29EA31EF962AC0094F91B /* Build configuration list for PBXNativeTarget "SwiftLeafLight" */;
+			buildPhases = (
+				96A29E7A1EF962AC0094F91B /* Sources */,
+				96A29E7B1EF962AC0094F91B /* Frameworks */,
+				96A29E7C1EF962AC0094F91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLeafLight;
+			productName = SwiftLeafLight;
+			productReference = 96A29E7E1EF962AC0094F91B /* SwiftLeafLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96A29E8E1EF962AC0094F91B /* SwiftLeafLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A29EA61EF962AC0094F91B /* Build configuration list for PBXNativeTarget "SwiftLeafLightTests" */;
+			buildPhases = (
+				96A29E8B1EF962AC0094F91B /* Sources */,
+				96A29E8C1EF962AC0094F91B /* Frameworks */,
+				96A29E8D1EF962AC0094F91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A29E911EF962AC0094F91B /* PBXTargetDependency */,
+			);
+			name = SwiftLeafLightTests;
+			productName = SwiftLeafLightTests;
+			productReference = 96A29E8F1EF962AC0094F91B /* SwiftLeafLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96A29E991EF962AC0094F91B /* SwiftLeafLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A29EA91EF962AC0094F91B /* Build configuration list for PBXNativeTarget "SwiftLeafLightUITests" */;
+			buildPhases = (
+				96A29E961EF962AC0094F91B /* Sources */,
+				96A29E971EF962AC0094F91B /* Frameworks */,
+				96A29E981EF962AC0094F91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A29E9C1EF962AC0094F91B /* PBXTargetDependency */,
+			);
+			name = SwiftLeafLightUITests;
+			productName = SwiftLeafLightUITests;
+			productReference = 96A29E9A1EF962AC0094F91B /* SwiftLeafLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96A29E761EF962AC0094F91B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dramikon Studio";
+				TargetAttributes = {
+					96A29E7D1EF962AC0094F91B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YB8H8AEJ43;
+						ProvisioningStyle = Automatic;
+					};
+					96A29E8E1EF962AC0094F91B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YB8H8AEJ43;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96A29E7D1EF962AC0094F91B;
+					};
+					96A29E991EF962AC0094F91B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YB8H8AEJ43;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96A29E7D1EF962AC0094F91B;
+					};
+				};
+			};
+			buildConfigurationList = 96A29E791EF962AC0094F91B /* Build configuration list for PBXProject "SwiftLeafLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96A29E751EF962AC0094F91B;
+			productRefGroup = 96A29E7F1EF962AC0094F91B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A29E7D1EF962AC0094F91B /* SwiftLeafLight */,
+				96A29E8E1EF962AC0094F91B /* SwiftLeafLightTests */,
+				96A29E991EF962AC0094F91B /* SwiftLeafLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96A29E7C1EF962AC0094F91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A29E861EF962AC0094F91B /* Assets.xcassets in Resources */,
+				96A29E891EF962AC0094F91B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A29E8D1EF962AC0094F91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A29E981EF962AC0094F91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96A29E7A1EF962AC0094F91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A29E841EF962AC0094F91B /* ViewController.swift in Sources */,
+				96A29E821EF962AC0094F91B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A29E8B1EF962AC0094F91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A29E941EF962AC0094F91B /* SwiftLeafLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A29E961EF962AC0094F91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A29E9F1EF962AC0094F91B /* SwiftLeafLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96A29E911EF962AC0094F91B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96A29E7D1EF962AC0094F91B /* SwiftLeafLight */;
+			targetProxy = 96A29E901EF962AC0094F91B /* PBXContainerItemProxy */;
+		};
+		96A29E9C1EF962AC0094F91B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96A29E7D1EF962AC0094F91B /* SwiftLeafLight */;
+			targetProxy = 96A29E9B1EF962AC0094F91B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96A29E871EF962AC0094F91B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A29E881EF962AC0094F91B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96A29EA11EF962AC0094F91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96A29EA21EF962AC0094F91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		96A29EA41EF962AC0094F91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YB8H8AEJ43;
+				INFOPLIST_FILE = SwiftLeafLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dramikon.SwiftLeafLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		96A29EA51EF962AC0094F91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YB8H8AEJ43;
+				INFOPLIST_FILE = SwiftLeafLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dramikon.SwiftLeafLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		96A29EA71EF962AC0094F91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YB8H8AEJ43;
+				INFOPLIST_FILE = SwiftLeafLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dramikon.SwiftLeafLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLeafLight.app/Contents/MacOS/SwiftLeafLight";
+			};
+			name = Debug;
+		};
+		96A29EA81EF962AC0094F91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YB8H8AEJ43;
+				INFOPLIST_FILE = SwiftLeafLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dramikon.SwiftLeafLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLeafLight.app/Contents/MacOS/SwiftLeafLight";
+			};
+			name = Release;
+		};
+		96A29EAA1EF962AC0094F91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YB8H8AEJ43;
+				INFOPLIST_FILE = SwiftLeafLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dramikon.SwiftLeafLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftLeafLight;
+			};
+			name = Debug;
+		};
+		96A29EAB1EF962AC0094F91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YB8H8AEJ43;
+				INFOPLIST_FILE = SwiftLeafLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dramikon.SwiftLeafLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftLeafLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96A29E791EF962AC0094F91B /* Build configuration list for PBXProject "SwiftLeafLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A29EA11EF962AC0094F91B /* Debug */,
+				96A29EA21EF962AC0094F91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A29EA31EF962AC0094F91B /* Build configuration list for PBXNativeTarget "SwiftLeafLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A29EA41EF962AC0094F91B /* Debug */,
+				96A29EA51EF962AC0094F91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96A29EA61EF962AC0094F91B /* Build configuration list for PBXNativeTarget "SwiftLeafLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A29EA71EF962AC0094F91B /* Debug */,
+				96A29EA81EF962AC0094F91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96A29EA91EF962AC0094F91B /* Build configuration list for PBXNativeTarget "SwiftLeafLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A29EAA1EF962AC0094F91B /* Debug */,
+				96A29EAB1EF962AC0094F91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96A29E761EF962AC0094F91B /* Project object */;
+}
